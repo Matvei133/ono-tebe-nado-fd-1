@@ -1,1 +1,128 @@
-/* место для вашего кода */
+.header {
+}
+.header__menu {
+
+ }
+
+ .header__links-list {
+
+ }
+
+
+	 .header__links-list-item { 
+
+    }
+
+	.header__link {
+
+   }
+
+	 .header__link_active{
+
+    }
+
+
+		.header__logo {
+		}
+
+	 .header__address {
+		}
+
+.phone {
+}
+.email {
+}
+.address {
+}
+
+.cover {
+
+}
+
+ .cover__title {
+		}
+
+ .cover__description {
+
+ }
+
+
+ .cover__description-text {
+		}
+
+.overlay {
+}
+.aligned-text {
+
+		// .aligned-text_left
+
+		&_left {
+		}
+
+		// .aligned-text_center
+
+		&_center {
+		}
+
+		// .aligned-text_right
+
+		&_right {
+		}
+}
+.letter-spacing-extended {
+}
+.bet-button {
+}
+.lots {
+
+		// .lots__heading
+
+		&__heading {
+		}
+
+		// .lots__card-list
+
+		&__card-list {
+		}
+
+		// .lots__card-list-item
+
+		&__card-list-item {
+		}
+
+		// .lots__look-more-link
+
+		&__look-more-link {
+		}
+}
+.card {
+
+		// .card_type
+
+		&_type {
+		}
+
+		// .card_type
+
+		&_type {
+		}
+
+		// .card_type
+
+		&_type {
+		}
+
+		// .card__title
+
+		&__title {
+		}
+
+		// .card__text
+
+		&__text {
+		}
+}
+.container {
+}
+.logo-with-bg {
+}
