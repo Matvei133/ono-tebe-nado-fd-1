@@ -91,39 +91,38 @@ ul > li:first-child {
 .header__address {
   margin: 0 0 4px 104px;
 }
-
-
 .cover {
-  width: 1100px;
+width: 1100px;
 height: 757px;
 angle: 0 deg;
 opacity: 1;
  position: relative;
-  background-image: url(../images/cover.jpg);
+background-image: url(../images/cover.jpg);
 background-size: cover;
 color: white;
 text-transform: uppercase;
-  z-index: 0;
-  background-repeat: no-repeat;
-  background-position: center;
+z-index: 0;
+background-repeat: no-repeat;
+background-position: center;
 }
-  .overlay { 
-     top: 0; 
-      left: 0;
-        right: 0; 
-         bottom: 0;  
-         position: absolute;  
-         background-color: rgba(0, 0, 0, 0.6); 
-           width: 100%; 
-            height: 100%;  z-index: -1;
-  }
+
+.overlay { 
+top: 0; 
+left: 0;
+right: 0; 
+bottom: 0;  
+position: absolute;  
+background-color: rgba(0, 0, 0, 0.6); 
+width: 100%; 
+height: 100%; 
+z-index: -1;
+}
   
-  .cover__title {
+.cover__title {
 width: 1000px;
 height: 385px;
 opacity: 1;
  word-spacing: normal; /* обычное расстояние между словами */
-   text-transform: uppercase; /* все буквы будут большими */
    width: 637px; /* максимальная ширина текста */
    font-weight: 400; /* обычный вес шрифта */
    font-size: 22px; /* размер шрифта */
@@ -146,10 +145,9 @@ position: absolute;
    letter-spacing: 30px; /* значительное расстояние между буквами */
    font-family: Raleway;
 line-height: 114.99999999999999%;
-text-transform: uppercase;
  z-index: 1;
 }
-.aligned-text_center{
+.aligned-text_center {
 text-transform: uppercase;/*text-transform: uppercase;/*весь текст преобразуется в верхний регистр (все буквы большие)*/
  position: absolute; /* Позиционируем текст абсолютно относительно родителя */
  width: 339px;
@@ -164,11 +162,9 @@ line-height: 114.99999999999999%;
 letter-spacing: 30%;
 text-align: center;
 text-transform: uppercase;
-letter-spacing: 30px; 
 z-index: 1;
-
 }
-.aligned-text_right{
+.aligned-text_right {
 text-transform: uppercase;/*text-transform: uppercase;/*весь текст преобразуется в верхний регистр (все буквы большие)*/
  position: absolute; /* Позиционируем текст абсолютно относительно родителя */
 width: 387px;
@@ -181,37 +177,36 @@ font-style: Bold;
 font-size: 100px;
 line-height: 114.99999999999999%;
 letter-spacing: 30%;
-text-transform: uppercase;
-letter-spacing: 30px; 
 z-index: 1;
 }
-   .cover_description { 
-    width: 1000px;
+.cover_description { 
+width: 1000px;
 height: 51px;
 angle: 0 deg;
 opacity: 1;
 top: 656px;
 left: 50px;
 border-width: 1px;
-     display: flex; 
-      align-items: baseline;  
-      justify-content: space-evenly; 
-        gap: 99px;
-        position: absolute;
-        z-index: 1;
-      }
-      .cover_text { 
-    
-         font-size: 22px;  
-         font-weight: 400;
-         line-height: 28px;  
-         word-spacing: 18px;
-        }
-        .button {  
-          margin-left: 5px;
-          width: 256px;
-            height: 51px;  
-            border: 1px solid #FFFFFF;
+display: flex; 
+align-items: baseline;  
+justify-content: space-evenly; 
+gap: 99px;
+position: absolute;
+z-index: 1;
+}
+
+.cover_text { 
+font-size: 22px;  
+font-weight: 400;
+line-height: 28px;  
+word-spacing: 18px;
+}
+
+.button {  
+margin-left: 5px;
+width: 256px;
+height: 51px;  
+border: 1px solid #FFFFFF;
              background-color: transparent;
                font-family: "Raleway", sans-serif; 
                 color: #FFFFFF;
@@ -222,8 +217,7 @@ border-width: 1px;
                       }
 
 
-
-     .lots{
+.lots {
 width: 1052px;
 height: 723px;
 angle: 0 deg;
@@ -371,13 +365,10 @@ margin: 155px 50px 146px 50px;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
+
     font-weight: 400;
-      line-height: 23.6px}
-
-/* В случае с классом about__logo я строго указал размеры блока, так как
-это необходимо для формирования черного круга нужного размера */
-
+      line-height: 23.6px
+    }
 .about__logo {
   display: flex;
   width: 240px;
@@ -424,8 +415,7 @@ opacity: 1;
 
 }
 
-.about__text__top
-{
+.about__text__top {
   margin-right: 28px;
   color: #000;
   font-family: Raleway, sans-serif;
