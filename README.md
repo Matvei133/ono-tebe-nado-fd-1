@@ -1,1 +1,1 @@
-https://github.com/Matvei133/ono-tebe-nado-fd-1
+https://github.com/Matvei133/ono-tebe-nado-fd
