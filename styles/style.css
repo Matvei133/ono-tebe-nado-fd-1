@@ -80,7 +80,6 @@
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 23.6px;
 }
@@ -98,6 +97,7 @@
   display: flex;
   align-self: flex-start;
 }
+
 .cover {
   display: flex;
   justify-content: space-between;
@@ -111,7 +111,6 @@
 height: 757px;
 angle: 0 deg;
 opacity: 1;
-
 }
 
 h1 {
@@ -177,6 +176,7 @@ h1 {
   margin: 7px 0 50px 103px;
   z-index: 1;
 }
+
 .lots__heading {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -264,7 +264,6 @@ display: flex;
   z-index: 1;
 }
 
-
 .card__title_book {
   padding: 48px 14px 0 40px;
   overflow-wrap: break-word;
@@ -335,48 +334,6 @@ display: flex;
   overflow-wrap: break-word;
 }
 
-.about {
-  display: grid;
-  grid-template-columns: 334px 718px;
-  margin: 50px 24px 180px 24px;
-}
-
-.circle {
-  display: grid;
-  place-items: center;
-  background-color: black;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  margin: 106px 46px 46px 47px;
-  padding: 44px 46px 37px 47px;
-}
-
-.about__title {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 100%;
-  text-transform: uppercase;
-  margin: 212px 0 0 25px;
-}
-
-.about__text {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.about__text_question {
-  margin: 102px 4px 0 25px;
-  padding-top: 1px;
-}
-
-.about__text_statement {
-  margin: 24px 3px 0 25px;
-  overflow-wrap: break-word;
-}
 footer {
   margin: 0px 50px 90px 50px;
   display: flex;
@@ -417,6 +374,6 @@ footer {
   gap: 48px;
 }
 
-.footer__social-list-item-logo{
+.footer__social-list-item-logo {
   width: 48px;
 }
